@@ -113,9 +113,9 @@ def door_check():
             #print(int(dis))
             #print(saved_dis)
             if int(dis) <= int(saved_dis) - 2:
-                bot.send_message(333009899, 'Дверь была открыта!')
+                bot.send_message(\\chatid, 'Дверь была открыта!')
         except Exception:
-            bot.send_message(333009899, 'Ooops, something wrong -_-')
+            bot.send_message(\\chatid, 'Ooops, something wrong -_-')
         time.sleep(2)
 
 if __name__ == '__main__':
