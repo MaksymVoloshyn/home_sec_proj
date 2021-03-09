@@ -4,7 +4,7 @@ import time
 from bs4 import BeautifulSoup
 from multiprocessing import Process
 
-bot = telebot.TeleBot('813041480:AAFi1MVGgrZWT-F6ELujp4aUFojfALwFPKw')
+bot = telebot.TeleBot('\\token')
 keyboard1 = telebot.types.ReplyKeyboardMarkup(row_width=2, resize_keyboard=True)
 keyboard1.row('Мониторинг вкл.', 'Мониторинг выкл.')
 keyboard1.row('Состояние дома', 'Температура\Влажность', 'Расстояние')
